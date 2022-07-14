@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.mr16 {
+    margin-right: 16px;
+}
+
+.ml16 {
+    margin-left: 16px;
+}
+
+#container {
+    width: 100%;
+    height: 670px;
+}
+
+.box {
+    width: 304px;
+    height: 530px;
+    background-color:#eee;
+    margin: auto;
+    border-radius: 5px; 
+    margin-top: 5rem;
+}
+
+.box .login1 {
+    text-align: center;
+    padding: 10px;
+}
+
+.box .loginwith {
+    width: 252px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 25px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.loginwith .google {
+    margin-left: 8px;
+    margin-right: 16px;
+    margin-top: 14px;
+}
+
+.loginwith h2 {
+    line-height: 40px;
+}
+
+.box .content {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.box .content input{
+    padding: 8px;
+    width: 100%;
+    border: 1px solid rgb(12, 43, 12);
+}
+
+.box .email {
+    margin-bottom: 20px;
+}
+
+.box .content p {
+    margin-bottom: 5px;
+}
+
+.box .check input {
+    margin-right: 16px;
+}
+
+.box .signin {
+    text-align: center;
+}
+
+.box .signin .in1{
+    margin-top: 30px;
+    width: 255px;
+    height: 43px;
+    background-color: rgb(25, 0, 255);
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+.box .signin .in2 {
+    margin-top: 10px;
+    background-color: #eee;
+    color: blue;
+    border: 0;
+    cursor: pointer;
+}
+
+.box .signup {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.box .signup p {
+    margin-bottom: 5px;
+}
+
+.box .signup button {
+    background-color:#eee;
+    cursor: pointer;
+    color: blue;
+    font-size: 15px;
+}
